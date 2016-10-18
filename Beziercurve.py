@@ -75,7 +75,7 @@ rawdraw.down()
 for rpturtle in rplist:
     rawdraw.goto(rpturtle.position())
 
-### DeCasteljau Theorem ###
+### DeCasteljau Algorithm ###
 ccd_refined = []
 refinedlist = []
 def deCasteljau(args,t,i):
